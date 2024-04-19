@@ -16,6 +16,9 @@ spec:
       containers:
       - image: ghcr.io/wanghong230/guestbook:latest
         name: guestbook
+        env:
+        - name: KARGO_DEMO_ENV
+          value: "GARTNER"
         ports:
         - name: http
           containerPort: 3000
