@@ -15,7 +15,7 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: ghcr.io/wanghong230/guestbook:v1.1.10
+      - image: ghcr.io/wanghong230/guestbook:v1.1.11
         name: guestbook
         ports:
         - containerPort: 3000
